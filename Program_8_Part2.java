@@ -1,7 +1,6 @@
 //Done
 
 public class Program_8_Part2 {
-    public class ExeceptionDemo {
         public static void main(String args[]) {
             try {
                 int age = 19;
@@ -14,6 +13,4 @@ public class Program_8_Part2 {
                 System.out.println(e.getMessage());
             }
         }
-
-    }
 }

@@ -2,9 +2,9 @@
 import java.io.*;
 public class Program_12 {
     public static void main(String[] args) {
-        listFiles(new File("C:\\Users\\safir\\OneDrive - Jain University Incubation Centre\\Photos\\Documents\\Desktop\\MCA"));
+        listfiles(new File("D:\\College\\Sem 2\\ADA"));
     }
-    static void listFiles(File dir)
+    static void listfiles(File dir)
     {
         File[] files = dir.listFiles();
         if (files == null) {
@@ -14,7 +14,7 @@ public class Program_12 {
 
         for (File file : files) {
             if (file.isDirectory()) {
-                listFiles(file);
+                listfiles(file);
             } else {
                 System.out.println(file.getAbsolutePath());
 
