@@ -1,12 +1,14 @@
 import java.util.Scanner;
 
+//Done
+
 public class Program_2 {
     public static void main(String[] args) {
         int i,j,m,n;
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter Starting number");
         m=sc.nextInt();
-        System.out.println("Enter Starting number");
+        System.out.println("Enter Ending number");
         n=sc.nextInt();
         if(m<n)
         {
